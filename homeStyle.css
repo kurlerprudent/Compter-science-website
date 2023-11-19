@@ -1,46 +1,120 @@
 *{
     margin: 0%;
     padding: 0%;
+
 }
-
-.gridContainer{
-    background-color: rgb(24, 223, 223);
-    display:grid;
-
-    grid-template-areas: 'header header header'
-                           'navigation navigation navigation'
-                           'content content aside'
-                           'footer footer footer';
-   }
-           
- 
-
-
-
-.header{
-    background-color: aquamarine;
-    height: 280px;
-    grid-area:header;
+body{
+    margin: 0px;
+}
+.csLogoContainer{
+    margin-top: 20px;
+    width: 400px;
     
 }
-.content{
-    background-color: rgb(77, 139, 117);
-    grid-area: content;
-    height: 100%;
+
+#csLogo{
+    top: 20px;
+    width: 100%;
+
 }
-.footer{
-    background-color: rgb(36, 61, 53);
-    height: 200px;
-    grid-area: footer;
-}
-.aside{
-    background-color: rgb(249, 255, 127);
-    height: 200px;
-    grid-area: aside;
-}
-.navigation{
-    height: 50px;
-    background-color: rgb(191, 127, 255);
+
+
+
+header{
+    background-color: aqua;
+    height: 160px;
+    width: 100%;
     
-    grid-area:navigation ;
+}
+
+
+.logo{
+    width: 300px;
+    display: flex;
+    float: right;
+    top: 15px;
+    right: 20px;
+    
+    
+}
+
+#img1{
+    margin: 8px;
+}
+#img2{
+    margin: 8px;
+}
+#img3{
+    margin: 8px;
+}
+#img4{
+    margin: 8px;
+}
+
+.navbar{
+    background-color: blue;
+    position: relative;
+    
+}
+#contact{
+    margin-right: 0%;
+    margin-left: 2px;
+    width: 210px;
+    position: absolute;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+    margin-right: 0.5px;
+    padding: 8px;
+    text-align:center;
+    color : white;
+    width: 185px;
+    background-color: rgb(4, 4, 94);
+    height: 38px;
+}
+
+button:hover{
+    background-color: rgb(47, 153, 153);
+}
+button:active{
+    background-color: rgb(47, 153, 153);
+}
+p{
+    margin: 80px;
+    font-size: 28px;
+    color: #485667;
+}
+
+#pic1{
+    margin: 0%;
+    width: 100%;
+}
+
+.content3_container{
+    background-color: rgb(3, 3, 127);
+    
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.item{
+    height: 100px;
+    background-color: #FFFFFF;
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.item:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+h1{
+    color: #FFFFFF;
+    float:top ;
 }
